@@ -7,78 +7,86 @@ class Item {
 }
 
 class Shop {
+  #DEFAULT_ITEM_NAME = "Regular (default) Item";
+
+  #itemsWithProcessors = {
+    "Aged Brie": this.#processBrie,
+    "Sulfuras, Hand of Ragnaros": this.#processSulfuras,
+    "Backstage passes to a TAFKAL80ETC concert": this.#processBackstage,
+    "Conjured": this.#processConjured,
+    [this.#DEFAULT_ITEM_NAME]: this.#processRegularItem,
+  };
+
   constructor(items = []) {
     this.items = items;
   }
 
   updateQuality() {
-    this.items.forEach(this.process.bind(this));
+    this.items.forEach(item => {
+      this.getProcessorFnOrDefault(item.name)(item);
+    });
 
     return this.items;
   }
 
-  process(item) {
-    const processorFn = this.getProcessorFn(item.name);
-
-    processorFn(item);
+  getProcessorFnOrDefault(itemName) {
+    return this.#itemsWithProcessors[itemName] || this.#itemsWithProcessors[this.#DEFAULT_ITEM_NAME];
   }
 
-  getProcessorFn(itemName) {
-    const availableProcessors = {
-      "Aged Brie": processBrie,
-      "Sulfuras, Hand of Ragnaros": processSulfuras,
-      "Backstage passes to a TAFKAL80ETC concert": processBackstage,
-      "Default Item Name": processRegularItem,
-    };
+  #processBrie(item) {
+    item.sellIn--;
 
-    function processBrie(item) {
-      item.sellIn--;
+    item.quality = Math.max(item.quality, Math.min(50, item.quality + 1));
 
-      if (item.sellIn < 0) {
-        // shouldn't exceed 50
-        item.quality = Math.min(50, item.quality + 2)
-      } else {
-        // shouldn't exceed 50
-        item.quality = Math.min(50, item.quality + 1)
-      }
+    if (item.sellIn < 0) {
+      item.quality = Math.max(item.quality, Math.min(50, item.quality + 1));
+    }
+  }
+
+  #processSulfuras(item) {
+
+  }
+
+  #processBackstage(item) {
+    item.quality = Math.max(item.quality, Math.min(50, item.quality + 1));
+
+    if (item.sellIn <= 10) {
+      item.quality = Math.max(item.quality, Math.min(50, item.quality + 1));
     }
 
-    function processSulfuras(item) {
-
+    if (item.sellIn <= 5) {
+      item.quality = Math.max(item.quality, Math.min(50, item.quality + 1));
     }
 
-    function processBackstage(item) {
-      if (item.quality < 50) {
-        item.quality = Math.min(50, item.quality + 1);
-      }
+    item.sellIn--;
 
-      if (item.sellIn < 11) {
-        item.quality = Math.min(50, item.quality + 1);
-      }
-      if (item.sellIn < 6) {
-        item.quality = Math.min(50, item.quality + 1);
-      }
-
-      item.sellIn--;
-
-      if (item.sellIn < 0) {
-        item.quality = 0;
-      }
+    if (item.sellIn < 0) {
+      item.quality = 0;
     }
+  }
 
-    function processRegularItem(item) {
-      item.sellIn--;
+  #processConjured(item) {
+    item.sellIn--;
 
-      if (item.sellIn < 0) {
-        if (item.quality > 0) {
-          item.quality = Math.max(0, item.quality - 2);
-        }
-      } else {
-        item.quality = Math.max(0, item.quality - 1);
-      }
+    item.quality = Math.min(item.quality, Math.max(0, item.quality - 2));
+
+    if (item.sellIn < 0) {
+      item.quality = Math.min(item.quality, Math.max(0, item.quality - 2));
     }
+  }
 
-    return availableProcessors[itemName] || availableProcessors["Default Item Name"];
+  #processRegularItem(item) {
+    item.sellIn--;
+
+    item.quality = Math.min(item.quality, Math.max(0, item.quality - 1 ));
+
+    if (item.sellIn < 0) {
+      item.quality = Math.min(item.quality, Math.max(0, item.quality - 1));
+    }
+  }
+
+  getAvailableItemNames() {
+    return Object.keys(this.#itemsWithProcessors);
   }
 }
 
