@@ -32,16 +32,14 @@ class Shop {
     };
 
     function processBrie(item) {
-      if (item.quality < 50) {
-        item.quality++;
-      }
-
       item.sellIn--;
 
       if (item.sellIn < 0) {
-        if (item.quality < 50) {
-          item.quality++;
-        }
+        // shouldn't exceed 50
+        item.quality = Math.min(50, item.quality + 2)
+      } else {
+        // shouldn't exceed 50
+        item.quality = Math.min(50, item.quality + 1)
       }
     }
 
