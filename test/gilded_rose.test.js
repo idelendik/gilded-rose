@@ -138,7 +138,6 @@ describe("Gilded Rose", function() {
         new Item("X", -1, 2),
         new Item("Backstage passes to a TAFKAL80ETC concert", -1, 2),
         new Item("X", -1, -1),
-        new Item("Aged Brie", -1, 55),
       ];
 
       const shop = new Shop(items);

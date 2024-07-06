@@ -71,16 +71,14 @@ class Shop {
     }
 
     function processRegularItem(item) {
-      if (item.quality > 0) {
-        item.quality--;
-      }
-
       item.sellIn--;
 
       if (item.sellIn < 0) {
         if (item.quality > 0) {
-          item.quality--;
+          item.quality = Math.max(0, item.quality - 2);
         }
+      } else {
+        item.quality = Math.max(0, item.quality - 1);
       }
     }
 
