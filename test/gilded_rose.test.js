@@ -1,5 +1,7 @@
+const fs = require("node:fs");
+const path = require("node:path");
+
 const {Shop, Item} = require("../src/gilded_rose");
-const test = require("node:test");
 
 describe("Gilded Rose", function() {
   xdescribe("updateQuality", function () {
@@ -143,14 +145,7 @@ describe("Gilded Rose", function() {
   });
 
   describe("auto-generated tests", function () {
-    const itemNamesToTest = [
-        ...new Shop().getAvailableItemNames(),
-      "non_existing_item_name_to_test_default_processor_selection"
-    ];
-    const itemSellInsToTest = [-10, -1, 0, 1, 10, 100];
-    const itemQualitiesToTest = [-1, 0, 1, 49, 100];
-
-    const testCases = generateTestCases(itemNamesToTest, itemSellInsToTest, itemQualitiesToTest);
+    const testCases = getTestCases();
 
     testCases.forEach(({name, given, expected}) => {
       describe(name, function () {
@@ -175,22 +170,49 @@ describe("Gilded Rose", function() {
   });
 });
 
-function generateTestCases(namesToTest, sellInValuesToTest = [], qualityValuesToTest = []) {
-  const result = [];
+function getTestCases () {
+  const TEST_CASES_FILE_PATH = path.join(__dirname, "testCases.json");
 
-  namesToTest.forEach(itemName => {
-    sellInValuesToTest.forEach(itemSellIn => {
-      qualityValuesToTest.forEach(itemQuality => {
-        const {sellIn, quality} = new Shop([new Item(itemName, itemSellIn, itemQuality)]).updateQuality()[0];
+  const testCasesData = generateTestCasesData();
 
-        result.push({
-          name: itemName,
-          given: {sellIn: itemSellIn, quality: itemQuality},
-          expected: {sellIn: sellIn, quality: quality}
+  updateTestFile(testCasesData);
+
+  return Object.values(testCasesData);
+
+  function generateTestCasesData() {
+    const namesToTest = [
+      ...new Shop().getAvailableItemNames(),
+      "non_existing_item_name_to_test_default_processor_selection"
+    ].sort();
+    const sellInValuesToTest = [-10, -1, 0, 1, 10, 100].sort((a,b) => a - b);
+    const qualityValuesToTest = [-1, 0, 1, 49, 100].sort((a,b) => a - b);
+
+    const result = {};
+
+    namesToTest.forEach(itemName => {
+      sellInValuesToTest.forEach(itemSellIn => {
+        qualityValuesToTest.forEach(itemQuality => {
+          const {sellIn, quality} = new Shop([new Item(itemName, itemSellIn, itemQuality)]).updateQuality()[0];
+
+          const id = btoa(`${itemName}|${itemSellIn}|${itemQuality}|${sellIn}|${quality}`);
+
+          if (result[id]) {
+            throw new Error("non-unique key");
+          }
+
+          result[id] = {
+            name: itemName,
+            given: {sellIn: itemSellIn, quality: itemQuality},
+            expected: {sellIn: sellIn, quality: quality}
+          };
         });
       });
     });
-  })
 
-  return result;
+    return result;
+  }
+
+  function updateTestFile(testCasesDataToWrite) {
+    fs.writeFileSync(TEST_CASES_FILE_PATH, JSON.stringify(testCasesDataToWrite, null, 2) );
+  }
 }

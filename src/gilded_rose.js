@@ -48,15 +48,20 @@ class Shop {
   }
 
   #processBackstage(item) {
+    // let qualityIncrement = 1;
     item.quality = Math.max(item.quality, Math.min(50, item.quality + 1));
 
     if (item.sellIn <= 10) {
+      // qualityIncrement++;
       item.quality = Math.max(item.quality, Math.min(50, item.quality + 1));
     }
 
     if (item.sellIn <= 5) {
+      // qualityIncrement++;
       item.quality = Math.max(item.quality, Math.min(50, item.quality + 1));
     }
+
+    // item.quality = Math.max(item.quality, Math.min(50, item.quality + qualityIncrement));
 
     item.sellIn--;
 
@@ -78,7 +83,7 @@ class Shop {
   #processRegularItem(item) {
     item.sellIn--;
 
-    item.quality = Math.min(item.quality, Math.max(0, item.quality - 1 ));
+    item.quality = Math.min(item.quality, Math.max(0, item.quality - 1));
 
     if (item.sellIn < 0) {
       item.quality = Math.min(item.quality, Math.max(0, item.quality - 1));

@@ -1,0 +1,1982 @@
+{
+  "QWdlZCBCcmllfC0xMHwtMXwtMTF8MQ==": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": -10,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": -11,
+      "quality": 1
+    }
+  },
+  "QWdlZCBCcmllfC0xMHwwfC0xMXwy": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": -10,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": -11,
+      "quality": 2
+    }
+  },
+  "QWdlZCBCcmllfC0xMHwxfC0xMXwz": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": -10,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": -11,
+      "quality": 3
+    }
+  },
+  "QWdlZCBCcmllfC0xMHw0OXwtMTF8NTA=": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": -10,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": -11,
+      "quality": 50
+    }
+  },
+  "QWdlZCBCcmllfC0xMHwxMDB8LTExfDEwMA==": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": -10,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": -11,
+      "quality": 100
+    }
+  },
+  "QWdlZCBCcmllfC0xfC0xfC0yfDE=": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": -1,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": -2,
+      "quality": 1
+    }
+  },
+  "QWdlZCBCcmllfC0xfDB8LTJ8Mg==": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": -1,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": -2,
+      "quality": 2
+    }
+  },
+  "QWdlZCBCcmllfC0xfDF8LTJ8Mw==": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": -1,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": -2,
+      "quality": 3
+    }
+  },
+  "QWdlZCBCcmllfC0xfDQ5fC0yfDUw": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": -1,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": -2,
+      "quality": 50
+    }
+  },
+  "QWdlZCBCcmllfC0xfDEwMHwtMnwxMDA=": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": -1,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": -2,
+      "quality": 100
+    }
+  },
+  "QWdlZCBCcmllfDB8LTF8LTF8MQ==": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": 0,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": 1
+    }
+  },
+  "QWdlZCBCcmllfDB8MHwtMXwy": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": 0,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": 2
+    }
+  },
+  "QWdlZCBCcmllfDB8MXwtMXwz": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": 0,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": 3
+    }
+  },
+  "QWdlZCBCcmllfDB8NDl8LTF8NTA=": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": 0,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": 50
+    }
+  },
+  "QWdlZCBCcmllfDB8MTAwfC0xfDEwMA==": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": 0,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": 100
+    }
+  },
+  "QWdlZCBCcmllfDF8LTF8MHww": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": 1,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": 0
+    }
+  },
+  "QWdlZCBCcmllfDF8MHwwfDE=": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": 1,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": 1
+    }
+  },
+  "QWdlZCBCcmllfDF8MXwwfDI=": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": 1,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": 2
+    }
+  },
+  "QWdlZCBCcmllfDF8NDl8MHw1MA==": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": 1,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": 50
+    }
+  },
+  "QWdlZCBCcmllfDF8MTAwfDB8MTAw": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": 1,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": 100
+    }
+  },
+  "QWdlZCBCcmllfDEwfC0xfDl8MA==": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": 10,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": 9,
+      "quality": 0
+    }
+  },
+  "QWdlZCBCcmllfDEwfDB8OXwx": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": 10,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": 9,
+      "quality": 1
+    }
+  },
+  "QWdlZCBCcmllfDEwfDF8OXwy": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": 10,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": 9,
+      "quality": 2
+    }
+  },
+  "QWdlZCBCcmllfDEwfDQ5fDl8NTA=": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": 10,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": 9,
+      "quality": 50
+    }
+  },
+  "QWdlZCBCcmllfDEwfDEwMHw5fDEwMA==": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": 10,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": 9,
+      "quality": 100
+    }
+  },
+  "QWdlZCBCcmllfDEwMHwtMXw5OXww": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": 100,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": 99,
+      "quality": 0
+    }
+  },
+  "QWdlZCBCcmllfDEwMHwwfDk5fDE=": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": 100,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": 99,
+      "quality": 1
+    }
+  },
+  "QWdlZCBCcmllfDEwMHwxfDk5fDI=": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": 100,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": 99,
+      "quality": 2
+    }
+  },
+  "QWdlZCBCcmllfDEwMHw0OXw5OXw1MA==": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": 100,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": 99,
+      "quality": 50
+    }
+  },
+  "QWdlZCBCcmllfDEwMHwxMDB8OTl8MTAw": {
+    "name": "Aged Brie",
+    "given": {
+      "sellIn": 100,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": 99,
+      "quality": 100
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8LTEwfC0xfC0xMXww": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": -10,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": -11,
+      "quality": 0
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8LTEwfDB8LTExfDA=": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": -10,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": -11,
+      "quality": 0
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8LTEwfDF8LTExfDA=": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": -10,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": -11,
+      "quality": 0
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8LTEwfDQ5fC0xMXww": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": -10,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": -11,
+      "quality": 0
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8LTEwfDEwMHwtMTF8MA==": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": -10,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": -11,
+      "quality": 0
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8LTF8LTF8LTJ8MA==": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": -1,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": -2,
+      "quality": 0
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8LTF8MHwtMnww": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": -1,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": -2,
+      "quality": 0
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8LTF8MXwtMnww": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": -1,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": -2,
+      "quality": 0
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8LTF8NDl8LTJ8MA==": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": -1,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": -2,
+      "quality": 0
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8LTF8MTAwfC0yfDA=": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": -1,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": -2,
+      "quality": 0
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MHwtMXwtMXww": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": 0,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": 0
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MHwwfC0xfDA=": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": 0,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": 0
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MHwxfC0xfDA=": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": 0,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": 0
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MHw0OXwtMXww": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": 0,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": 0
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MHwxMDB8LTF8MA==": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": 0,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": 0
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MXwtMXwwfDI=": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": 1,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": 2
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MXwwfDB8Mw==": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": 1,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": 3
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MXwxfDB8NA==": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": 1,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": 4
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MXw0OXwwfDUw": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": 1,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": 50
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MXwxMDB8MHwxMDA=": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": 1,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": 100
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MTB8LTF8OXwx": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": 10,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": 9,
+      "quality": 1
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MTB8MHw5fDI=": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": 10,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": 9,
+      "quality": 2
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MTB8MXw5fDM=": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": 10,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": 9,
+      "quality": 3
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MTB8NDl8OXw1MA==": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": 10,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": 9,
+      "quality": 50
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MTB8MTAwfDl8MTAw": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": 10,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": 9,
+      "quality": 100
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MTAwfC0xfDk5fDA=": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": 100,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": 99,
+      "quality": 0
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MTAwfDB8OTl8MQ==": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": 100,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": 99,
+      "quality": 1
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MTAwfDF8OTl8Mg==": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": 100,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": 99,
+      "quality": 2
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MTAwfDQ5fDk5fDUw": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": 100,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": 99,
+      "quality": 50
+    }
+  },
+  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MTAwfDEwMHw5OXwxMDA=": {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "given": {
+      "sellIn": 100,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": 99,
+      "quality": 100
+    }
+  },
+  "Q29uanVyZWR8LTEwfC0xfC0xMXwtMQ==": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": -10,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": -11,
+      "quality": -1
+    }
+  },
+  "Q29uanVyZWR8LTEwfDB8LTExfDA=": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": -10,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": -11,
+      "quality": 0
+    }
+  },
+  "Q29uanVyZWR8LTEwfDF8LTExfDA=": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": -10,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": -11,
+      "quality": 0
+    }
+  },
+  "Q29uanVyZWR8LTEwfDQ5fC0xMXw0NQ==": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": -10,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": -11,
+      "quality": 45
+    }
+  },
+  "Q29uanVyZWR8LTEwfDEwMHwtMTF8OTY=": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": -10,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": -11,
+      "quality": 96
+    }
+  },
+  "Q29uanVyZWR8LTF8LTF8LTJ8LTE=": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": -1,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": -2,
+      "quality": -1
+    }
+  },
+  "Q29uanVyZWR8LTF8MHwtMnww": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": -1,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": -2,
+      "quality": 0
+    }
+  },
+  "Q29uanVyZWR8LTF8MXwtMnww": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": -1,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": -2,
+      "quality": 0
+    }
+  },
+  "Q29uanVyZWR8LTF8NDl8LTJ8NDU=": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": -1,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": -2,
+      "quality": 45
+    }
+  },
+  "Q29uanVyZWR8LTF8MTAwfC0yfDk2": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": -1,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": -2,
+      "quality": 96
+    }
+  },
+  "Q29uanVyZWR8MHwtMXwtMXwtMQ==": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": 0,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": -1
+    }
+  },
+  "Q29uanVyZWR8MHwwfC0xfDA=": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": 0,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": 0
+    }
+  },
+  "Q29uanVyZWR8MHwxfC0xfDA=": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": 0,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": 0
+    }
+  },
+  "Q29uanVyZWR8MHw0OXwtMXw0NQ==": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": 0,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": 45
+    }
+  },
+  "Q29uanVyZWR8MHwxMDB8LTF8OTY=": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": 0,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": 96
+    }
+  },
+  "Q29uanVyZWR8MXwtMXwwfC0x": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": 1,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": -1
+    }
+  },
+  "Q29uanVyZWR8MXwwfDB8MA==": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": 1,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": 0
+    }
+  },
+  "Q29uanVyZWR8MXwxfDB8MA==": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": 1,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": 0
+    }
+  },
+  "Q29uanVyZWR8MXw0OXwwfDQ3": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": 1,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": 47
+    }
+  },
+  "Q29uanVyZWR8MXwxMDB8MHw5OA==": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": 1,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": 98
+    }
+  },
+  "Q29uanVyZWR8MTB8LTF8OXwtMQ==": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": 10,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": 9,
+      "quality": -1
+    }
+  },
+  "Q29uanVyZWR8MTB8MHw5fDA=": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": 10,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": 9,
+      "quality": 0
+    }
+  },
+  "Q29uanVyZWR8MTB8MXw5fDA=": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": 10,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": 9,
+      "quality": 0
+    }
+  },
+  "Q29uanVyZWR8MTB8NDl8OXw0Nw==": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": 10,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": 9,
+      "quality": 47
+    }
+  },
+  "Q29uanVyZWR8MTB8MTAwfDl8OTg=": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": 10,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": 9,
+      "quality": 98
+    }
+  },
+  "Q29uanVyZWR8MTAwfC0xfDk5fC0x": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": 100,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": 99,
+      "quality": -1
+    }
+  },
+  "Q29uanVyZWR8MTAwfDB8OTl8MA==": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": 100,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": 99,
+      "quality": 0
+    }
+  },
+  "Q29uanVyZWR8MTAwfDF8OTl8MA==": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": 100,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": 99,
+      "quality": 0
+    }
+  },
+  "Q29uanVyZWR8MTAwfDQ5fDk5fDQ3": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": 100,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": 99,
+      "quality": 47
+    }
+  },
+  "Q29uanVyZWR8MTAwfDEwMHw5OXw5OA==": {
+    "name": "Conjured",
+    "given": {
+      "sellIn": 100,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": 99,
+      "quality": 98
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwtMTB8LTF8LTExfC0x": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": -10,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": -11,
+      "quality": -1
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwtMTB8MHwtMTF8MA==": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": -10,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": -11,
+      "quality": 0
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwtMTB8MXwtMTF8MA==": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": -10,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": -11,
+      "quality": 0
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwtMTB8NDl8LTExfDQ3": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": -10,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": -11,
+      "quality": 47
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwtMTB8MTAwfC0xMXw5OA==": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": -10,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": -11,
+      "quality": 98
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwtMXwtMXwtMnwtMQ==": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": -1,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": -2,
+      "quality": -1
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwtMXwwfC0yfDA=": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": -1,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": -2,
+      "quality": 0
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwtMXwxfC0yfDA=": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": -1,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": -2,
+      "quality": 0
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwtMXw0OXwtMnw0Nw==": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": -1,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": -2,
+      "quality": 47
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwtMXwxMDB8LTJ8OTg=": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": -1,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": -2,
+      "quality": 98
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwwfC0xfC0xfC0x": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": 0,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": -1
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwwfDB8LTF8MA==": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": 0,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": 0
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwwfDF8LTF8MA==": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": 0,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": 0
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwwfDQ5fC0xfDQ3": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": 0,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": 47
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwwfDEwMHwtMXw5OA==": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": 0,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": 98
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwxfC0xfDB8LTE=": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": 1,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": -1
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwxfDB8MHww": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": 1,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": 0
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwxfDF8MHww": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": 1,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": 0
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwxfDQ5fDB8NDg=": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": 1,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": 48
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwxfDEwMHwwfDk5": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": 1,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": 99
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwxMHwtMXw5fC0x": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": 10,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": 9,
+      "quality": -1
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwxMHwwfDl8MA==": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": 10,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": 9,
+      "quality": 0
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwxMHwxfDl8MA==": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": 10,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": 9,
+      "quality": 0
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwxMHw0OXw5fDQ4": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": 10,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": 9,
+      "quality": 48
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwxMHwxMDB8OXw5OQ==": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": 10,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": 9,
+      "quality": 99
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwxMDB8LTF8OTl8LTE=": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": 100,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": 99,
+      "quality": -1
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwxMDB8MHw5OXww": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": 100,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": 99,
+      "quality": 0
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwxMDB8MXw5OXww": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": 100,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": 99,
+      "quality": 0
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwxMDB8NDl8OTl8NDg=": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": 100,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": 99,
+      "quality": 48
+    }
+  },
+  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwxMDB8MTAwfDk5fDk5": {
+    "name": "Regular (default) Item",
+    "given": {
+      "sellIn": 100,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": 99,
+      "quality": 99
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8LTEwfC0xfC0xMHwtMQ==": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": -10,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": -10,
+      "quality": -1
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8LTEwfDB8LTEwfDA=": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": -10,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": -10,
+      "quality": 0
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8LTEwfDF8LTEwfDE=": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": -10,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": -10,
+      "quality": 1
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8LTEwfDQ5fC0xMHw0OQ==": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": -10,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": -10,
+      "quality": 49
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8LTEwfDEwMHwtMTB8MTAw": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": -10,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": -10,
+      "quality": 100
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8LTF8LTF8LTF8LTE=": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": -1,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": -1
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8LTF8MHwtMXww": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": -1,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": 0
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8LTF8MXwtMXwx": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": -1,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": 1
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8LTF8NDl8LTF8NDk=": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": -1,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": 49
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8LTF8MTAwfC0xfDEwMA==": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": -1,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": 100
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MHwtMXwwfC0x": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": 0,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": -1
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MHwwfDB8MA==": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": 0,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": 0
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MHwxfDB8MQ==": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": 0,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": 1
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MHw0OXwwfDQ5": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": 0,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": 49
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MHwxMDB8MHwxMDA=": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": 0,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": 100
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MXwtMXwxfC0x": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": 1,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": 1,
+      "quality": -1
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MXwwfDF8MA==": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": 1,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": 1,
+      "quality": 0
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MXwxfDF8MQ==": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": 1,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": 1,
+      "quality": 1
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MXw0OXwxfDQ5": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": 1,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": 1,
+      "quality": 49
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MXwxMDB8MXwxMDA=": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": 1,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": 1,
+      "quality": 100
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MTB8LTF8MTB8LTE=": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": 10,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": 10,
+      "quality": -1
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MTB8MHwxMHww": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": 10,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": 10,
+      "quality": 0
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MTB8MXwxMHwx": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": 10,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": 10,
+      "quality": 1
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MTB8NDl8MTB8NDk=": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": 10,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": 10,
+      "quality": 49
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MTB8MTAwfDEwfDEwMA==": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": 10,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": 10,
+      "quality": 100
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MTAwfC0xfDEwMHwtMQ==": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": 100,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": 100,
+      "quality": -1
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MTAwfDB8MTAwfDA=": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": 100,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": 100,
+      "quality": 0
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MTAwfDF8MTAwfDE=": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": 100,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": 100,
+      "quality": 1
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MTAwfDQ5fDEwMHw0OQ==": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": 100,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": 100,
+      "quality": 49
+    }
+  },
+  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MTAwfDEwMHwxMDB8MTAw": {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "given": {
+      "sellIn": 100,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": 100,
+      "quality": 100
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwtMTB8LTF8LTExfC0x": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": -10,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": -11,
+      "quality": -1
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwtMTB8MHwtMTF8MA==": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": -10,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": -11,
+      "quality": 0
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwtMTB8MXwtMTF8MA==": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": -10,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": -11,
+      "quality": 0
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwtMTB8NDl8LTExfDQ3": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": -10,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": -11,
+      "quality": 47
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwtMTB8MTAwfC0xMXw5OA==": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": -10,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": -11,
+      "quality": 98
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwtMXwtMXwtMnwtMQ==": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": -1,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": -2,
+      "quality": -1
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwtMXwwfC0yfDA=": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": -1,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": -2,
+      "quality": 0
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwtMXwxfC0yfDA=": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": -1,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": -2,
+      "quality": 0
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwtMXw0OXwtMnw0Nw==": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": -1,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": -2,
+      "quality": 47
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwtMXwxMDB8LTJ8OTg=": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": -1,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": -2,
+      "quality": 98
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwwfC0xfC0xfC0x": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": 0,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": -1
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwwfDB8LTF8MA==": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": 0,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": 0
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwwfDF8LTF8MA==": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": 0,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": 0
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwwfDQ5fC0xfDQ3": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": 0,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": 47
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwwfDEwMHwtMXw5OA==": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": 0,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": -1,
+      "quality": 98
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwxfC0xfDB8LTE=": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": 1,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": -1
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwxfDB8MHww": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": 1,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": 0
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwxfDF8MHww": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": 1,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": 0
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwxfDQ5fDB8NDg=": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": 1,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": 48
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwxfDEwMHwwfDk5": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": 1,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": 0,
+      "quality": 99
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwxMHwtMXw5fC0x": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": 10,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": 9,
+      "quality": -1
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwxMHwwfDl8MA==": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": 10,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": 9,
+      "quality": 0
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwxMHwxfDl8MA==": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": 10,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": 9,
+      "quality": 0
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwxMHw0OXw5fDQ4": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": 10,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": 9,
+      "quality": 48
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwxMHwxMDB8OXw5OQ==": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": 10,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": 9,
+      "quality": 99
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwxMDB8LTF8OTl8LTE=": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": 100,
+      "quality": -1
+    },
+    "expected": {
+      "sellIn": 99,
+      "quality": -1
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwxMDB8MHw5OXww": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": 100,
+      "quality": 0
+    },
+    "expected": {
+      "sellIn": 99,
+      "quality": 0
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwxMDB8MXw5OXww": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": 100,
+      "quality": 1
+    },
+    "expected": {
+      "sellIn": 99,
+      "quality": 0
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwxMDB8NDl8OTl8NDg=": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": 100,
+      "quality": 49
+    },
+    "expected": {
+      "sellIn": 99,
+      "quality": 48
+    }
+  },
+  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwxMDB8MTAwfDk5fDk5": {
+    "name": "non_existing_item_name_to_test_default_processor_selection",
+    "given": {
+      "sellIn": 100,
+      "quality": 100
+    },
+    "expected": {
+      "sellIn": 99,
+      "quality": 99
+    }
+  }
+}
