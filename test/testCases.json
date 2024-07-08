@@ -1,15 +1,4 @@
 {
-  "QWdlZCBCcmllfC0xMHwtMXwtMTF8MQ==": {
-    "name": "Aged Brie",
-    "given": {
-      "sellIn": -10,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": -11,
-      "quality": 1
-    }
-  },
   "QWdlZCBCcmllfC0xMHwwfC0xMXwy": {
     "name": "Aged Brie",
     "given": {
@@ -52,17 +41,6 @@
     "expected": {
       "sellIn": -11,
       "quality": 100
-    }
-  },
-  "QWdlZCBCcmllfC0xfC0xfC0yfDE=": {
-    "name": "Aged Brie",
-    "given": {
-      "sellIn": -1,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": -2,
-      "quality": 1
     }
   },
   "QWdlZCBCcmllfC0xfDB8LTJ8Mg==": {
@@ -109,17 +87,6 @@
       "quality": 100
     }
   },
-  "QWdlZCBCcmllfDB8LTF8LTF8MQ==": {
-    "name": "Aged Brie",
-    "given": {
-      "sellIn": 0,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": -1,
-      "quality": 1
-    }
-  },
   "QWdlZCBCcmllfDB8MHwtMXwy": {
     "name": "Aged Brie",
     "given": {
@@ -162,17 +129,6 @@
     "expected": {
       "sellIn": -1,
       "quality": 100
-    }
-  },
-  "QWdlZCBCcmllfDF8LTF8MHww": {
-    "name": "Aged Brie",
-    "given": {
-      "sellIn": 1,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": 0,
-      "quality": 0
     }
   },
   "QWdlZCBCcmllfDF8MHwwfDE=": {
@@ -219,17 +175,6 @@
       "quality": 100
     }
   },
-  "QWdlZCBCcmllfDEwfC0xfDl8MA==": {
-    "name": "Aged Brie",
-    "given": {
-      "sellIn": 10,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": 9,
-      "quality": 0
-    }
-  },
   "QWdlZCBCcmllfDEwfDB8OXwx": {
     "name": "Aged Brie",
     "given": {
@@ -272,17 +217,6 @@
     "expected": {
       "sellIn": 9,
       "quality": 100
-    }
-  },
-  "QWdlZCBCcmllfDEwMHwtMXw5OXww": {
-    "name": "Aged Brie",
-    "given": {
-      "sellIn": 100,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": 99,
-      "quality": 0
     }
   },
   "QWdlZCBCcmllfDEwMHwwfDk5fDE=": {
@@ -329,19 +263,8 @@
       "quality": 100
     }
   },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8LTEwfC0xfC0xMXww": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
-    "given": {
-      "sellIn": -10,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": -11,
-      "quality": 0
-    }
-  },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8LTEwfDB8LTExfDA=": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
+  "QmFja3N0YWdlIHBhc3Nlc3wtMTB8MHwtMTF8MA==": {
+    "name": "Backstage passes",
     "given": {
       "sellIn": -10,
       "quality": 0
@@ -351,8 +274,8 @@
       "quality": 0
     }
   },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8LTEwfDF8LTExfDA=": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
+  "QmFja3N0YWdlIHBhc3Nlc3wtMTB8MXwtMTF8MA==": {
+    "name": "Backstage passes",
     "given": {
       "sellIn": -10,
       "quality": 1
@@ -362,8 +285,8 @@
       "quality": 0
     }
   },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8LTEwfDQ5fC0xMXww": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
+  "QmFja3N0YWdlIHBhc3Nlc3wtMTB8NDl8LTExfDA=": {
+    "name": "Backstage passes",
     "given": {
       "sellIn": -10,
       "quality": 49
@@ -373,8 +296,8 @@
       "quality": 0
     }
   },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8LTEwfDEwMHwtMTF8MA==": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
+  "QmFja3N0YWdlIHBhc3Nlc3wtMTB8MTAwfC0xMXww": {
+    "name": "Backstage passes",
     "given": {
       "sellIn": -10,
       "quality": 100
@@ -384,19 +307,8 @@
       "quality": 0
     }
   },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8LTF8LTF8LTJ8MA==": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
-    "given": {
-      "sellIn": -1,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": -2,
-      "quality": 0
-    }
-  },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8LTF8MHwtMnww": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
+  "QmFja3N0YWdlIHBhc3Nlc3wtMXwwfC0yfDA=": {
+    "name": "Backstage passes",
     "given": {
       "sellIn": -1,
       "quality": 0
@@ -406,8 +318,8 @@
       "quality": 0
     }
   },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8LTF8MXwtMnww": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
+  "QmFja3N0YWdlIHBhc3Nlc3wtMXwxfC0yfDA=": {
+    "name": "Backstage passes",
     "given": {
       "sellIn": -1,
       "quality": 1
@@ -417,8 +329,8 @@
       "quality": 0
     }
   },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8LTF8NDl8LTJ8MA==": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
+  "QmFja3N0YWdlIHBhc3Nlc3wtMXw0OXwtMnww": {
+    "name": "Backstage passes",
     "given": {
       "sellIn": -1,
       "quality": 49
@@ -428,8 +340,8 @@
       "quality": 0
     }
   },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8LTF8MTAwfC0yfDA=": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
+  "QmFja3N0YWdlIHBhc3Nlc3wtMXwxMDB8LTJ8MA==": {
+    "name": "Backstage passes",
     "given": {
       "sellIn": -1,
       "quality": 100
@@ -439,19 +351,8 @@
       "quality": 0
     }
   },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MHwtMXwtMXww": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
-    "given": {
-      "sellIn": 0,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": -1,
-      "quality": 0
-    }
-  },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MHwwfC0xfDA=": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
+  "QmFja3N0YWdlIHBhc3Nlc3wwfDB8LTF8MA==": {
+    "name": "Backstage passes",
     "given": {
       "sellIn": 0,
       "quality": 0
@@ -461,8 +362,8 @@
       "quality": 0
     }
   },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MHwxfC0xfDA=": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
+  "QmFja3N0YWdlIHBhc3Nlc3wwfDF8LTF8MA==": {
+    "name": "Backstage passes",
     "given": {
       "sellIn": 0,
       "quality": 1
@@ -472,8 +373,8 @@
       "quality": 0
     }
   },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MHw0OXwtMXww": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
+  "QmFja3N0YWdlIHBhc3Nlc3wwfDQ5fC0xfDA=": {
+    "name": "Backstage passes",
     "given": {
       "sellIn": 0,
       "quality": 49
@@ -483,8 +384,8 @@
       "quality": 0
     }
   },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MHwxMDB8LTF8MA==": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
+  "QmFja3N0YWdlIHBhc3Nlc3wwfDEwMHwtMXww": {
+    "name": "Backstage passes",
     "given": {
       "sellIn": 0,
       "quality": 100
@@ -494,19 +395,8 @@
       "quality": 0
     }
   },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MXwtMXwwfDI=": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
-    "given": {
-      "sellIn": 1,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": 0,
-      "quality": 2
-    }
-  },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MXwwfDB8Mw==": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
+  "QmFja3N0YWdlIHBhc3Nlc3wxfDB8MHwz": {
+    "name": "Backstage passes",
     "given": {
       "sellIn": 1,
       "quality": 0
@@ -516,8 +406,8 @@
       "quality": 3
     }
   },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MXwxfDB8NA==": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
+  "QmFja3N0YWdlIHBhc3Nlc3wxfDF8MHw0": {
+    "name": "Backstage passes",
     "given": {
       "sellIn": 1,
       "quality": 1
@@ -527,8 +417,8 @@
       "quality": 4
     }
   },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MXw0OXwwfDUw": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
+  "QmFja3N0YWdlIHBhc3Nlc3wxfDQ5fDB8NTA=": {
+    "name": "Backstage passes",
     "given": {
       "sellIn": 1,
       "quality": 49
@@ -538,8 +428,8 @@
       "quality": 50
     }
   },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MXwxMDB8MHwxMDA=": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
+  "QmFja3N0YWdlIHBhc3Nlc3wxfDEwMHwwfDEwMA==": {
+    "name": "Backstage passes",
     "given": {
       "sellIn": 1,
       "quality": 100
@@ -549,19 +439,8 @@
       "quality": 100
     }
   },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MTB8LTF8OXwx": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
-    "given": {
-      "sellIn": 10,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": 9,
-      "quality": 1
-    }
-  },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MTB8MHw5fDI=": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
+  "QmFja3N0YWdlIHBhc3Nlc3wxMHwwfDl8Mg==": {
+    "name": "Backstage passes",
     "given": {
       "sellIn": 10,
       "quality": 0
@@ -571,8 +450,8 @@
       "quality": 2
     }
   },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MTB8MXw5fDM=": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
+  "QmFja3N0YWdlIHBhc3Nlc3wxMHwxfDl8Mw==": {
+    "name": "Backstage passes",
     "given": {
       "sellIn": 10,
       "quality": 1
@@ -582,8 +461,8 @@
       "quality": 3
     }
   },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MTB8NDl8OXw1MA==": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
+  "QmFja3N0YWdlIHBhc3Nlc3wxMHw0OXw5fDUw": {
+    "name": "Backstage passes",
     "given": {
       "sellIn": 10,
       "quality": 49
@@ -593,8 +472,8 @@
       "quality": 50
     }
   },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MTB8MTAwfDl8MTAw": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
+  "QmFja3N0YWdlIHBhc3Nlc3wxMHwxMDB8OXwxMDA=": {
+    "name": "Backstage passes",
     "given": {
       "sellIn": 10,
       "quality": 100
@@ -604,19 +483,8 @@
       "quality": 100
     }
   },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MTAwfC0xfDk5fDA=": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
-    "given": {
-      "sellIn": 100,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": 99,
-      "quality": 0
-    }
-  },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MTAwfDB8OTl8MQ==": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
+  "QmFja3N0YWdlIHBhc3Nlc3wxMDB8MHw5OXwx": {
+    "name": "Backstage passes",
     "given": {
       "sellIn": 100,
       "quality": 0
@@ -626,8 +494,8 @@
       "quality": 1
     }
   },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MTAwfDF8OTl8Mg==": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
+  "QmFja3N0YWdlIHBhc3Nlc3wxMDB8MXw5OXwy": {
+    "name": "Backstage passes",
     "given": {
       "sellIn": 100,
       "quality": 1
@@ -637,8 +505,8 @@
       "quality": 2
     }
   },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MTAwfDQ5fDk5fDUw": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
+  "QmFja3N0YWdlIHBhc3Nlc3wxMDB8NDl8OTl8NTA=": {
+    "name": "Backstage passes",
     "given": {
       "sellIn": 100,
       "quality": 49
@@ -648,8 +516,8 @@
       "quality": 50
     }
   },
-  "QmFja3N0YWdlIHBhc3NlcyB0byBhIFRBRktBTDgwRVRDIGNvbmNlcnR8MTAwfDEwMHw5OXwxMDA=": {
-    "name": "Backstage passes to a TAFKAL80ETC concert",
+  "QmFja3N0YWdlIHBhc3Nlc3wxMDB8MTAwfDk5fDEwMA==": {
+    "name": "Backstage passes",
     "given": {
       "sellIn": 100,
       "quality": 100
@@ -657,17 +525,6 @@
     "expected": {
       "sellIn": 99,
       "quality": 100
-    }
-  },
-  "Q29uanVyZWR8LTEwfC0xfC0xMXwtMQ==": {
-    "name": "Conjured",
-    "given": {
-      "sellIn": -10,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": -11,
-      "quality": -1
     }
   },
   "Q29uanVyZWR8LTEwfDB8LTExfDA=": {
@@ -714,17 +571,6 @@
       "quality": 96
     }
   },
-  "Q29uanVyZWR8LTF8LTF8LTJ8LTE=": {
-    "name": "Conjured",
-    "given": {
-      "sellIn": -1,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": -2,
-      "quality": -1
-    }
-  },
   "Q29uanVyZWR8LTF8MHwtMnww": {
     "name": "Conjured",
     "given": {
@@ -767,17 +613,6 @@
     "expected": {
       "sellIn": -2,
       "quality": 96
-    }
-  },
-  "Q29uanVyZWR8MHwtMXwtMXwtMQ==": {
-    "name": "Conjured",
-    "given": {
-      "sellIn": 0,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": -1,
-      "quality": -1
     }
   },
   "Q29uanVyZWR8MHwwfC0xfDA=": {
@@ -824,17 +659,6 @@
       "quality": 96
     }
   },
-  "Q29uanVyZWR8MXwtMXwwfC0x": {
-    "name": "Conjured",
-    "given": {
-      "sellIn": 1,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": 0,
-      "quality": -1
-    }
-  },
   "Q29uanVyZWR8MXwwfDB8MA==": {
     "name": "Conjured",
     "given": {
@@ -877,17 +701,6 @@
     "expected": {
       "sellIn": 0,
       "quality": 98
-    }
-  },
-  "Q29uanVyZWR8MTB8LTF8OXwtMQ==": {
-    "name": "Conjured",
-    "given": {
-      "sellIn": 10,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": 9,
-      "quality": -1
     }
   },
   "Q29uanVyZWR8MTB8MHw5fDA=": {
@@ -934,17 +747,6 @@
       "quality": 98
     }
   },
-  "Q29uanVyZWR8MTAwfC0xfDk5fC0x": {
-    "name": "Conjured",
-    "given": {
-      "sellIn": 100,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": 99,
-      "quality": -1
-    }
-  },
   "Q29uanVyZWR8MTAwfDB8OTl8MA==": {
     "name": "Conjured",
     "given": {
@@ -987,17 +789,6 @@
     "expected": {
       "sellIn": 99,
       "quality": 98
-    }
-  },
-  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwtMTB8LTF8LTExfC0x": {
-    "name": "Regular (default) Item",
-    "given": {
-      "sellIn": -10,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": -11,
-      "quality": -1
     }
   },
   "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwtMTB8MHwtMTF8MA==": {
@@ -1044,17 +835,6 @@
       "quality": 98
     }
   },
-  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwtMXwtMXwtMnwtMQ==": {
-    "name": "Regular (default) Item",
-    "given": {
-      "sellIn": -1,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": -2,
-      "quality": -1
-    }
-  },
   "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwtMXwwfC0yfDA=": {
     "name": "Regular (default) Item",
     "given": {
@@ -1097,17 +877,6 @@
     "expected": {
       "sellIn": -2,
       "quality": 98
-    }
-  },
-  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwwfC0xfC0xfC0x": {
-    "name": "Regular (default) Item",
-    "given": {
-      "sellIn": 0,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": -1,
-      "quality": -1
     }
   },
   "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwwfDB8LTF8MA==": {
@@ -1154,17 +923,6 @@
       "quality": 98
     }
   },
-  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwxfC0xfDB8LTE=": {
-    "name": "Regular (default) Item",
-    "given": {
-      "sellIn": 1,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": 0,
-      "quality": -1
-    }
-  },
   "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwxfDB8MHww": {
     "name": "Regular (default) Item",
     "given": {
@@ -1207,17 +965,6 @@
     "expected": {
       "sellIn": 0,
       "quality": 99
-    }
-  },
-  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwxMHwtMXw5fC0x": {
-    "name": "Regular (default) Item",
-    "given": {
-      "sellIn": 10,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": 9,
-      "quality": -1
     }
   },
   "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwxMHwwfDl8MA==": {
@@ -1264,17 +1011,6 @@
       "quality": 99
     }
   },
-  "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwxMDB8LTF8OTl8LTE=": {
-    "name": "Regular (default) Item",
-    "given": {
-      "sellIn": 100,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": 99,
-      "quality": -1
-    }
-  },
   "UmVndWxhciAoZGVmYXVsdCkgSXRlbXwxMDB8MHw5OXww": {
     "name": "Regular (default) Item",
     "given": {
@@ -1319,19 +1055,8 @@
       "quality": 99
     }
   },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8LTEwfC0xfC0xMHwtMQ==": {
-    "name": "Sulfuras, Hand of Ragnaros",
-    "given": {
-      "sellIn": -10,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": -10,
-      "quality": -1
-    }
-  },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8LTEwfDB8LTEwfDA=": {
-    "name": "Sulfuras, Hand of Ragnaros",
+  "U3VsZnVyYXN8LTEwfDB8LTEwfDA=": {
+    "name": "Sulfuras",
     "given": {
       "sellIn": -10,
       "quality": 0
@@ -1341,8 +1066,8 @@
       "quality": 0
     }
   },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8LTEwfDF8LTEwfDE=": {
-    "name": "Sulfuras, Hand of Ragnaros",
+  "U3VsZnVyYXN8LTEwfDF8LTEwfDE=": {
+    "name": "Sulfuras",
     "given": {
       "sellIn": -10,
       "quality": 1
@@ -1352,8 +1077,8 @@
       "quality": 1
     }
   },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8LTEwfDQ5fC0xMHw0OQ==": {
-    "name": "Sulfuras, Hand of Ragnaros",
+  "U3VsZnVyYXN8LTEwfDQ5fC0xMHw0OQ==": {
+    "name": "Sulfuras",
     "given": {
       "sellIn": -10,
       "quality": 49
@@ -1363,8 +1088,8 @@
       "quality": 49
     }
   },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8LTEwfDEwMHwtMTB8MTAw": {
-    "name": "Sulfuras, Hand of Ragnaros",
+  "U3VsZnVyYXN8LTEwfDEwMHwtMTB8MTAw": {
+    "name": "Sulfuras",
     "given": {
       "sellIn": -10,
       "quality": 100
@@ -1374,19 +1099,8 @@
       "quality": 100
     }
   },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8LTF8LTF8LTF8LTE=": {
-    "name": "Sulfuras, Hand of Ragnaros",
-    "given": {
-      "sellIn": -1,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": -1,
-      "quality": -1
-    }
-  },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8LTF8MHwtMXww": {
-    "name": "Sulfuras, Hand of Ragnaros",
+  "U3VsZnVyYXN8LTF8MHwtMXww": {
+    "name": "Sulfuras",
     "given": {
       "sellIn": -1,
       "quality": 0
@@ -1396,8 +1110,8 @@
       "quality": 0
     }
   },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8LTF8MXwtMXwx": {
-    "name": "Sulfuras, Hand of Ragnaros",
+  "U3VsZnVyYXN8LTF8MXwtMXwx": {
+    "name": "Sulfuras",
     "given": {
       "sellIn": -1,
       "quality": 1
@@ -1407,8 +1121,8 @@
       "quality": 1
     }
   },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8LTF8NDl8LTF8NDk=": {
-    "name": "Sulfuras, Hand of Ragnaros",
+  "U3VsZnVyYXN8LTF8NDl8LTF8NDk=": {
+    "name": "Sulfuras",
     "given": {
       "sellIn": -1,
       "quality": 49
@@ -1418,8 +1132,8 @@
       "quality": 49
     }
   },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8LTF8MTAwfC0xfDEwMA==": {
-    "name": "Sulfuras, Hand of Ragnaros",
+  "U3VsZnVyYXN8LTF8MTAwfC0xfDEwMA==": {
+    "name": "Sulfuras",
     "given": {
       "sellIn": -1,
       "quality": 100
@@ -1429,19 +1143,8 @@
       "quality": 100
     }
   },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MHwtMXwwfC0x": {
-    "name": "Sulfuras, Hand of Ragnaros",
-    "given": {
-      "sellIn": 0,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": 0,
-      "quality": -1
-    }
-  },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MHwwfDB8MA==": {
-    "name": "Sulfuras, Hand of Ragnaros",
+  "U3VsZnVyYXN8MHwwfDB8MA==": {
+    "name": "Sulfuras",
     "given": {
       "sellIn": 0,
       "quality": 0
@@ -1451,8 +1154,8 @@
       "quality": 0
     }
   },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MHwxfDB8MQ==": {
-    "name": "Sulfuras, Hand of Ragnaros",
+  "U3VsZnVyYXN8MHwxfDB8MQ==": {
+    "name": "Sulfuras",
     "given": {
       "sellIn": 0,
       "quality": 1
@@ -1462,8 +1165,8 @@
       "quality": 1
     }
   },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MHw0OXwwfDQ5": {
-    "name": "Sulfuras, Hand of Ragnaros",
+  "U3VsZnVyYXN8MHw0OXwwfDQ5": {
+    "name": "Sulfuras",
     "given": {
       "sellIn": 0,
       "quality": 49
@@ -1473,8 +1176,8 @@
       "quality": 49
     }
   },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MHwxMDB8MHwxMDA=": {
-    "name": "Sulfuras, Hand of Ragnaros",
+  "U3VsZnVyYXN8MHwxMDB8MHwxMDA=": {
+    "name": "Sulfuras",
     "given": {
       "sellIn": 0,
       "quality": 100
@@ -1484,19 +1187,8 @@
       "quality": 100
     }
   },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MXwtMXwxfC0x": {
-    "name": "Sulfuras, Hand of Ragnaros",
-    "given": {
-      "sellIn": 1,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": 1,
-      "quality": -1
-    }
-  },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MXwwfDF8MA==": {
-    "name": "Sulfuras, Hand of Ragnaros",
+  "U3VsZnVyYXN8MXwwfDF8MA==": {
+    "name": "Sulfuras",
     "given": {
       "sellIn": 1,
       "quality": 0
@@ -1506,8 +1198,8 @@
       "quality": 0
     }
   },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MXwxfDF8MQ==": {
-    "name": "Sulfuras, Hand of Ragnaros",
+  "U3VsZnVyYXN8MXwxfDF8MQ==": {
+    "name": "Sulfuras",
     "given": {
       "sellIn": 1,
       "quality": 1
@@ -1517,8 +1209,8 @@
       "quality": 1
     }
   },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MXw0OXwxfDQ5": {
-    "name": "Sulfuras, Hand of Ragnaros",
+  "U3VsZnVyYXN8MXw0OXwxfDQ5": {
+    "name": "Sulfuras",
     "given": {
       "sellIn": 1,
       "quality": 49
@@ -1528,8 +1220,8 @@
       "quality": 49
     }
   },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MXwxMDB8MXwxMDA=": {
-    "name": "Sulfuras, Hand of Ragnaros",
+  "U3VsZnVyYXN8MXwxMDB8MXwxMDA=": {
+    "name": "Sulfuras",
     "given": {
       "sellIn": 1,
       "quality": 100
@@ -1539,19 +1231,8 @@
       "quality": 100
     }
   },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MTB8LTF8MTB8LTE=": {
-    "name": "Sulfuras, Hand of Ragnaros",
-    "given": {
-      "sellIn": 10,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": 10,
-      "quality": -1
-    }
-  },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MTB8MHwxMHww": {
-    "name": "Sulfuras, Hand of Ragnaros",
+  "U3VsZnVyYXN8MTB8MHwxMHww": {
+    "name": "Sulfuras",
     "given": {
       "sellIn": 10,
       "quality": 0
@@ -1561,8 +1242,8 @@
       "quality": 0
     }
   },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MTB8MXwxMHwx": {
-    "name": "Sulfuras, Hand of Ragnaros",
+  "U3VsZnVyYXN8MTB8MXwxMHwx": {
+    "name": "Sulfuras",
     "given": {
       "sellIn": 10,
       "quality": 1
@@ -1572,8 +1253,8 @@
       "quality": 1
     }
   },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MTB8NDl8MTB8NDk=": {
-    "name": "Sulfuras, Hand of Ragnaros",
+  "U3VsZnVyYXN8MTB8NDl8MTB8NDk=": {
+    "name": "Sulfuras",
     "given": {
       "sellIn": 10,
       "quality": 49
@@ -1583,8 +1264,8 @@
       "quality": 49
     }
   },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MTB8MTAwfDEwfDEwMA==": {
-    "name": "Sulfuras, Hand of Ragnaros",
+  "U3VsZnVyYXN8MTB8MTAwfDEwfDEwMA==": {
+    "name": "Sulfuras",
     "given": {
       "sellIn": 10,
       "quality": 100
@@ -1594,19 +1275,8 @@
       "quality": 100
     }
   },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MTAwfC0xfDEwMHwtMQ==": {
-    "name": "Sulfuras, Hand of Ragnaros",
-    "given": {
-      "sellIn": 100,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": 100,
-      "quality": -1
-    }
-  },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MTAwfDB8MTAwfDA=": {
-    "name": "Sulfuras, Hand of Ragnaros",
+  "U3VsZnVyYXN8MTAwfDB8MTAwfDA=": {
+    "name": "Sulfuras",
     "given": {
       "sellIn": 100,
       "quality": 0
@@ -1616,8 +1286,8 @@
       "quality": 0
     }
   },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MTAwfDF8MTAwfDE=": {
-    "name": "Sulfuras, Hand of Ragnaros",
+  "U3VsZnVyYXN8MTAwfDF8MTAwfDE=": {
+    "name": "Sulfuras",
     "given": {
       "sellIn": 100,
       "quality": 1
@@ -1627,8 +1297,8 @@
       "quality": 1
     }
   },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MTAwfDQ5fDEwMHw0OQ==": {
-    "name": "Sulfuras, Hand of Ragnaros",
+  "U3VsZnVyYXN8MTAwfDQ5fDEwMHw0OQ==": {
+    "name": "Sulfuras",
     "given": {
       "sellIn": 100,
       "quality": 49
@@ -1638,8 +1308,8 @@
       "quality": 49
     }
   },
-  "U3VsZnVyYXMsIEhhbmQgb2YgUmFnbmFyb3N8MTAwfDEwMHwxMDB8MTAw": {
-    "name": "Sulfuras, Hand of Ragnaros",
+  "U3VsZnVyYXN8MTAwfDEwMHwxMDB8MTAw": {
+    "name": "Sulfuras",
     "given": {
       "sellIn": 100,
       "quality": 100
@@ -1647,17 +1317,6 @@
     "expected": {
       "sellIn": 100,
       "quality": 100
-    }
-  },
-  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwtMTB8LTF8LTExfC0x": {
-    "name": "non_existing_item_name_to_test_default_processor_selection",
-    "given": {
-      "sellIn": -10,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": -11,
-      "quality": -1
     }
   },
   "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwtMTB8MHwtMTF8MA==": {
@@ -1704,17 +1363,6 @@
       "quality": 98
     }
   },
-  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwtMXwtMXwtMnwtMQ==": {
-    "name": "non_existing_item_name_to_test_default_processor_selection",
-    "given": {
-      "sellIn": -1,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": -2,
-      "quality": -1
-    }
-  },
   "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwtMXwwfC0yfDA=": {
     "name": "non_existing_item_name_to_test_default_processor_selection",
     "given": {
@@ -1757,17 +1405,6 @@
     "expected": {
       "sellIn": -2,
       "quality": 98
-    }
-  },
-  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwwfC0xfC0xfC0x": {
-    "name": "non_existing_item_name_to_test_default_processor_selection",
-    "given": {
-      "sellIn": 0,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": -1,
-      "quality": -1
     }
   },
   "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwwfDB8LTF8MA==": {
@@ -1814,17 +1451,6 @@
       "quality": 98
     }
   },
-  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwxfC0xfDB8LTE=": {
-    "name": "non_existing_item_name_to_test_default_processor_selection",
-    "given": {
-      "sellIn": 1,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": 0,
-      "quality": -1
-    }
-  },
   "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwxfDB8MHww": {
     "name": "non_existing_item_name_to_test_default_processor_selection",
     "given": {
@@ -1869,17 +1495,6 @@
       "quality": 99
     }
   },
-  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwxMHwtMXw5fC0x": {
-    "name": "non_existing_item_name_to_test_default_processor_selection",
-    "given": {
-      "sellIn": 10,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": 9,
-      "quality": -1
-    }
-  },
   "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwxMHwwfDl8MA==": {
     "name": "non_existing_item_name_to_test_default_processor_selection",
     "given": {
@@ -1922,17 +1537,6 @@
     "expected": {
       "sellIn": 9,
       "quality": 99
-    }
-  },
-  "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwxMDB8LTF8OTl8LTE=": {
-    "name": "non_existing_item_name_to_test_default_processor_selection",
-    "given": {
-      "sellIn": 100,
-      "quality": -1
-    },
-    "expected": {
-      "sellIn": 99,
-      "quality": -1
     }
   },
   "bm9uX2V4aXN0aW5nX2l0ZW1fbmFtZV90b190ZXN0X2RlZmF1bHRfcHJvY2Vzc29yX3NlbGVjdGlvbnwxMDB8MHw5OXww": {

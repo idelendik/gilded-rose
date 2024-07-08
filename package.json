@@ -6,7 +6,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "texttest": "node test/texttest_fixture.js"
+    "test:regenerate": "node test/regenerate_test_cases.js",
+    "test:initial": "node test/regenerate_test_cases.js initial"
   },
   "repository": {
     "type": "git",

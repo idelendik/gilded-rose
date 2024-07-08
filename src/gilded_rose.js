@@ -10,11 +10,11 @@ class Shop {
   #DEFAULT_ITEM_NAME = "Regular (default) Item";
 
   #itemsWithProcessors = {
-    "Aged Brie": this.#processBrie,
-    "Sulfuras, Hand of Ragnaros": this.#processSulfuras,
-    "Backstage passes to a TAFKAL80ETC concert": this.#processBackstage,
-    "Conjured": this.#processConjured,
-    [this.#DEFAULT_ITEM_NAME]: this.#processRegularItem,
+    "Aged Brie": this.#processBrie.bind(this),
+    "Sulfuras": this.#processSulfuras.bind(this),
+    "Backstage passes": this.#processBackstage.bind(this),
+    "Conjured": this.#processConjured.bind(this),
+    [this.#DEFAULT_ITEM_NAME]: this.#processRegularItem.bind(this),
   };
 
   constructor(items = []) {
@@ -30,17 +30,23 @@ class Shop {
   }
 
   getProcessorFnOrDefault(itemName) {
-    return this.#itemsWithProcessors[itemName] || this.#itemsWithProcessors[this.#DEFAULT_ITEM_NAME];
+    const availableNames = this.getAvailableItemPrefixes();
+
+    for (let i = 0; i < availableNames.length; i++) {
+      if (itemName.startsWith(availableNames[i])) {
+        return this.#itemsWithProcessors[availableNames[i]];
+      }
+    }
+
+    return this.#itemsWithProcessors[this.#DEFAULT_ITEM_NAME];
   }
 
   #processBrie(item) {
     item.sellIn--;
 
-    item.quality = Math.max(item.quality, Math.min(50, item.quality + 1));
+    const qualityDelta = this.#isPassedSellIn(item.sellIn) ? 2 : 1;
 
-    if (item.sellIn < 0) {
-      item.quality = Math.max(item.quality, Math.min(50, item.quality + 1));
-    }
+    item.quality = this.#clamp(50, item.quality, item.quality + qualityDelta);
   }
 
   #processSulfuras(item) {
@@ -48,49 +54,48 @@ class Shop {
   }
 
   #processBackstage(item) {
-    // let qualityIncrement = 1;
-    item.quality = Math.max(item.quality, Math.min(50, item.quality + 1));
+    let qualityDelta;
 
-    if (item.sellIn <= 10) {
-      // qualityIncrement++;
-      item.quality = Math.max(item.quality, Math.min(50, item.quality + 1));
+    if (item.sellIn > 10) {
+      qualityDelta = 1;
+    } else if (item.sellIn > 5) {
+      qualityDelta = 2;
+    } else {
+      qualityDelta = 3;
     }
 
-    if (item.sellIn <= 5) {
-      // qualityIncrement++;
-      item.quality = Math.max(item.quality, Math.min(50, item.quality + 1));
-    }
-
-    // item.quality = Math.max(item.quality, Math.min(50, item.quality + qualityIncrement));
+    item.quality = this.#clamp(50, item.quality, item.quality + qualityDelta);
 
     item.sellIn--;
 
-    if (item.sellIn < 0) {
-      item.quality = 0;
-    }
+    item.quality = this.#isPassedSellIn(item.sellIn) ? 0 : item.quality;
   }
 
   #processConjured(item) {
     item.sellIn--;
 
-    item.quality = Math.min(item.quality, Math.max(0, item.quality - 2));
+    const qualityDelta = this.#isPassedSellIn(item.sellIn) ? 4 : 2;
 
-    if (item.sellIn < 0) {
-      item.quality = Math.min(item.quality, Math.max(0, item.quality - 2));
-    }
+    item.quality = Math.max(0, item.quality - qualityDelta);
   }
 
   #processRegularItem(item) {
     item.sellIn--;
 
-    item.quality = Math.min(item.quality, Math.max(0, item.quality - 1));
+    const qualityDelta = this.#isPassedSellIn(item.sellIn) ? 2 : 1;
 
-    if (item.sellIn < 0) {
-      item.quality = Math.min(item.quality, Math.max(0, item.quality - 1));
-    }
+    item.quality = Math.max(0, item.quality - qualityDelta);
   }
 
-  getAvailableItemNames() {
+  #clamp(limit, min, max) {
+    return Math.min(Math.max(limit, min), max);
+  }
+
+  #isPassedSellIn(sellIn) {
+    return sellIn < 0;
+  }
+
+  getAvailableItemPrefixes() {
     return Object.keys(this.#itemsWithProcessors);
   }
 }
